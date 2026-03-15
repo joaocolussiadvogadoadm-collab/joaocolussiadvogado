@@ -1,5 +1,18 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "cleanUrls": true,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.joaocolussiadvocacia.com.br"
+        }
+      ],
+      "destination": "https://joaocolussiadvocacia.com.br/$1",
+      "permanent": true
+    }
+  ]
 }
