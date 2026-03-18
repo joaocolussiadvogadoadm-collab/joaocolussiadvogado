@@ -406,6 +406,11 @@ section[id] {
   gap: 0.45rem;
 }
 
+.footer-contact {
+  font-size: 0.88rem;
+  opacity: 0.92;
+}
+
 .footer-note {
   font-size: 0.78rem;
   opacity: 0.82;
